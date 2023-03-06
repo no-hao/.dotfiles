@@ -5,8 +5,23 @@ dotfiles_dir="$HOME/.dotfiles"
 
 # List of dotfiles to symlink
 dotfiles=(
-  .config
   # Add more dotfiles here as needed
+  .cargo
+  .config
+  .deno
+  .git
+  .lesshst
+  .npm
+  .oracle_jre_usage
+  .profile
+  .rustup
+  .ssh
+  .tmux
+  .viminfo
+  .zsh_history
+  .zsh_sessions
+  .zshenv
+  .zshrc
 )
 
 # Loop through dotfiles and create symlinks

@@ -47,6 +47,7 @@ return {
         -- Change specific vim highlight groups
         -- https://github.com/rose-pine/neovim/wiki/Recipes
         highlight_groups = {
+          CursorLineNr = { fg = "rose", bold = true },
           TelescopeBorder = { fg = "highlight_high", bg = "none" },
           TelescopeNormal = { bg = "none" },
           TelescopePromptNormal = { bg = "base" },

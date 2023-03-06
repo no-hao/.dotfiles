@@ -8,8 +8,9 @@ To run the symlink script for the dotfiles, follow these steps:
 
 1. Clone this repository to your local machine by running `git clone git@github.com:<your-github-username>/.dotfiles.git`.
 2. `cd` into the `.dotfiles` directory.
-3. Make the script executable by running `chmod +x symlink-dotfiles.sh`.
-4. Run the script with `./symlink-dotfiles.sh`.
+3. Make the script executable by running `chmod +x symlink-dotfiles.sh`
+4. Run the script with `./symlink-dotfiles.sh`
+5. If you add other dotfiles make sure you add it to the dir function of the symlink-dotfiles script
 
 The script will symlink the dotfiles in this repository to their respective locations in your home directory. Note that any existing dotfiles in your home directory with the same name will be replaced by a symlink to the corresponding file in this repository.
 
