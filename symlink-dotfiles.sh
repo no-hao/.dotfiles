@@ -6,6 +6,8 @@ dotfiles_dir="$HOME/.dotfiles"
 # List of dotfiles to symlink
 dotfiles=(
   # Add more dotfiles here as needed
+  .bash_profile
+  .bashrc
   .cargo
   .config
   .deno
