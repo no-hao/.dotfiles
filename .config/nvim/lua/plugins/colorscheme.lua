@@ -1,6 +1,4 @@
 return {
-  { "shaunsingh/oxocarbon.nvim" },
-  { "ellisonleao/gruvbox.nvim" },
   {
     "rose-pine/neovim",
     name = "rose-pine",
@@ -15,7 +13,7 @@ return {
         bold_vert_split = false,
         dim_nc_background = false,
         disable_background = false,
-        disable_float_background = true, -- was false.
+        disable_float_background = true,
         disable_italics = false,
 
         --- @usage string hex value or named color from rosepinetheme.com/palette
