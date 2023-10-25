@@ -1,0 +1,92 @@
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore session files
+Session.vim
+.netrwhist
+
+# Ignore temporary files
+*.bak
+*.tmp
+*.~*
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.pyc
+*.class
+
+# Ignore private files
+*.key
+*.pem
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore backup files
+*~
+*.backup
+*.back
+
+# Ignore .cache directory
+.cache/
+
+# Ignore .local directory
+.local/
+
+# Ignore .npm directory
+.npm/
+
+# Ignore .rustup directory
+.rustup/
+
+# Ignore .ssh directory
+.ssh/
+
+# Ignore Oracle JRE usage tracking file
+.oracle_jre_usage/*
+
+# Ignore zsh files and directories
+.zsh_history
+.zsh_sessions/
+.zshenv
+.zshrc
+
+# Ignore tmux plugin directory
+.tmux/plugins/
+
+# Ignore viminfo file
+.viminfo
+
+# Ignore lesshst file
+.lesshst
+
+# Ignore trash folders
+.Trash
+/.local/share/Trash
+
+# Ignore JetBrains IDE project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore macOS specific files
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore .cargo directory
+.cargo/
+
+# Ignore .deno directory
+.deno/
+.config/github-copilot/hosts.json
